@@ -40,3 +40,15 @@
 	font-size: 1rem !important;
 	line-height: 1.65 !important;
 }
+
+.gistpost .gist .markdown-body h1, .gistpost .gist .markdown-body h2, .gistpost .gist .markdown-body h3, .gistpost .gist .markdown-body h4, .gistpost .gist .markdown-body h5, .gistpost .gist .markdown-body h6 {
+	font-weight: unset !important;
+}
+
+.gistpost .gist .markdown-body table {
+	display: table !important;
+}
+
+.gistpost .gist .markdown-body hr {
+	height: 0.05rem !important;
+}
