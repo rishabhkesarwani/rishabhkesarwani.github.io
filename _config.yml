@@ -14,10 +14,10 @@ paginate: 1
 
 # About/contact
 author:
-	name: 'Rishabh Kesarwani'
-	url: https://twitter.com/rishabhksrwani
+  name: "Rishabh Kesarwani"
+  url: https://twitter.com/rishabhksrwani
 
 # Custom vars
 version: 1.0.0
-look: ''
+look: ""
 gist_url: https://gist.github.com/rishabhkesarwani/a21b145e2199999bcfa37c4c461f447e.js?file=
