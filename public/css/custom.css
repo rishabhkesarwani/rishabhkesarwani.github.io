@@ -3,3 +3,7 @@
 		font-size: 18px;
 	}
 }
+
+.related-posts li small {
+	float: right;
+}
