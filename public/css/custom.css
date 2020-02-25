@@ -7,3 +7,15 @@
 .related-posts li small {
 	float: right;
 }
+
+.related-posts a {
+	display: block;
+}
+
+.related-posts li a:hover {
+	text-decoration: underline;
+}
+
+a.pagination-item:hover, a.pagination-item:focus {
+	text-decoration: none;
+}
