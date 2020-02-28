@@ -1,21 +1,138 @@
+.sidebar-toggle:before {
+  display: inline-block;
+  width: 1rem;
+  height: 0.75rem;
+  content: "";
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #ac4142,
+    #ac4142 20%,
+    #fff 20%,
+    #fff 40%,
+    #ac4142 40%,
+    #ac4142 60%,
+    #fff 60%,
+    #fff 80%,
+    #ac4142 80%,
+    #ac4142 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    #ac4142,
+    #ac4142 20%,
+    #fff 20%,
+    #fff 40%,
+    #ac4142 40%,
+    #ac4142 60%,
+    #fff 60%,
+    #fff 80%,
+    #ac4142 80%,
+    #ac4142 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    #ac4142,
+    #ac4142 20%,
+    #fff 20%,
+    #fff 40%,
+    #ac4142 40%,
+    #ac4142 60%,
+    #fff 60%,
+    #fff 80%,
+    #ac4142 80%,
+    #ac4142 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #ac4142,
+    #ac4142 20%,
+    #fff 20%,
+    #fff 40%,
+    #ac4142 40%,
+    #ac4142 60%,
+    #fff 60%,
+    #fff 80%,
+    #ac4142 80%,
+    #ac4142 100%
+  );
+}
+
+.sidebar-toggle:active:before,
+#sidebar-checkbox:focus ~ .sidebar-toggle:before,
+#sidebar-checkbox:checked ~ .sidebar-toggle:before {
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #ac4142 20%,
+    #ac4142 40%,
+    #fff 40%,
+    #fff 60%,
+    #ac4142 60%,
+    #ac4142 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #ac4142 20%,
+    #ac4142 40%,
+    #fff 40%,
+    #fff 60%,
+    #ac4142 60%,
+    #ac4142 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #ac4142 20%,
+    #ac4142 40%,
+    #fff 40%,
+    #fff 60%,
+    #ac4142 60%,
+    #ac4142 80%,
+    #fff 80%,
+    #fff 100%
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #fff,
+    #fff 20%,
+    #ac4142 20%,
+    #ac4142 40%,
+    #fff 40%,
+    #fff 60%,
+    #ac4142 60%,
+    #ac4142 80%,
+    #fff 80%,
+    #fff 100%
+  );
+}
+
 @media (min-width: 38em) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 .related-posts li small {
-	float: right;
+  float: right;
 }
 
 .related-posts a {
-	display: block;
+  display: block;
 }
 
 .related-posts li a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
-a.pagination-item:hover, a.pagination-item:focus {
-	text-decoration: none;
+a.pagination-item:hover,
+a.pagination-item:focus {
+  text-decoration: none;
 }
