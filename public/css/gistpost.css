@@ -52,3 +52,21 @@
 .gistpost .gist .markdown-body hr {
 	height: 0.05rem !important;
 }
+
+.gistpost .gist code,
+.gistpost .gist pre {
+	font-family: 'JetBrains Mono' !important;
+}
+
+.gistpost .gist .markdown-body code,
+.gistpost .gist .markdown-body tt {
+	font-size: 0.8rem !important;
+}
+
+.gistpost .gist .markdown-body .highlight pre,
+.gistpost .gist .markdown-body pre {
+	font-size: 0.8rem !important;
+	line-height: 1.65 !important;
+	padding: 16px 20px !important;
+	white-space: pre-wrap !important;
+}
